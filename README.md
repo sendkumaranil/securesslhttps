@@ -18,7 +18,9 @@ you will get the csr file -> open file-> copy the text from -----BEGIN NEW CERTI
 keytool -import -alias getacert -file getacert.cer -keystore ssl-server.jks
 <h4>Now import the localhost certificate</h4>
 keytool -import -alias selfsigned_localhost_sslserver -file localhost-2020-07-22-065742.cer -keystore ssl-server.jks
+
 # View certificate list
 keytool -list -v -keystore ssl-server.jks
+
 # Certificate Details
 ![alt tag](https://github.com/sendkumaranil/securesslhttps/blob/master/Screenshot%202019-03-02%20at%2011.57.54%20PM.png)
