@@ -23,4 +23,4 @@ keytool -import -alias selfsigned_localhost_sslserver -file localhost-2020-07-22
 keytool -list -v -keystore ssl-server.jks
 
 # Certificate Details
-![alt tag](https://github.com/sendkumaranil/securesslhttps/blob/master/Screenshot%202019-03-02%20at%2011.57.54%20PM.png)
+![alt tag](https://github.com/sendkumaranil/securesslhttps/blob/master/ssl-server-certificate.png)
